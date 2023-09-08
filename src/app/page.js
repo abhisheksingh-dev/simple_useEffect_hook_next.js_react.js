@@ -13,9 +13,8 @@ import { Input } from '@/components/ui/input'
 import { useEffect, useState } from 'react'
 // Implementation of card from this awesome library https://ui.shadcn.com/
 const page = () => {
-  const [loading, setloading] = useState(false)
+  const [loading, setloading] = useState(true)
   useEffect(() => {
-    setloading(true)
     setTimeout(() => {
       setloading(false)
     }, 2000)
